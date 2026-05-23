@@ -1,0 +1,21 @@
+{
+  "name": "ironman-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://aoaaseowoo-svg.github.io/ironman",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.7.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.4.0",
+    "gh-pages": "^6.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "vite build && gh-pages -d dist"
+  }
+}
